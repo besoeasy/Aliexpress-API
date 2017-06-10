@@ -2,7 +2,7 @@
 
 Aliexpress Product API | JSON Product Data For Aliexpress 
 
-World's 1st Aliexpress API - https://aliexpressapi.herokuapp.com
+World's 1st Aliexpress API 
 
 Allows You To Fetch the product details, so its very different form affiliate api as the fetched data is simply outputted for the selected URL.
 
