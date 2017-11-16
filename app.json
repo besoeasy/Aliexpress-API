@@ -1,0 +1,7 @@
+{
+  "name": "Aliexpress API",
+  "description": "Scrape Aliexpress Products Easy Way",
+  "repository": "https://github.com/besoeasy/Aliexpress-API",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["aliexpress", "api", "scraper"]
+}
