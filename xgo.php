@@ -1,7 +1,25 @@
 <?php
- 
 include('simple_html_dom.php');
  
+
+
+
+
+  if (!isset($_POST['url'])) {
+
+echo '
+<form action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>" method="post">
+URL : <input type="text" name=“url”><br>
+<input type="submit">
+</form>
+';
+
+};
+
+
+
+
+
 $url = $_POST[“url”];
 $html = file_get_html($url);
 
