@@ -1,12 +1,5 @@
-<?php    
-if(!isset($_POST['url'])){ 
- echo "<form action=xgo.php method=post> URL: <input type=text name=url><input type=submit></form>";
-}    
-?>
-
-
 <?php
-include('simple_html_dom.php');
+include('dom.php');
 
 $url = $_POST[“url”];
 $html = file_get_html($url);
