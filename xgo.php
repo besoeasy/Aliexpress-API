@@ -4,7 +4,6 @@ include('dom.php');
 $url = $_POST[“url”];
 $html = file_get_html($url);
 
-
 $links = array();
 foreach($html->find('h1[class="product-name"]') as $a) {
  $links[] = $a->plaintext;
