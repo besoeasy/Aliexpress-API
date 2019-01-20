@@ -15,6 +15,9 @@ Allows You To Fetch the product details, so its very different form affiliate ap
  - Get Specific Images for Each variant 
 
 
+HOW to use ?
+just post get request to index.php ->   index.php?url=producturl
+
 
 Deploy To Heroku :-
 <a href="https://heroku.com/deploy">
