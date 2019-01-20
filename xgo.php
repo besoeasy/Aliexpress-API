@@ -1,8 +1,11 @@
 <?php
 include('dom.php');
 
-$url = $_POST[“url”];
+$url = $_GET[“url”];
 $html = file_get_html($url);
+
+//not using json encode for safety and object creation
+
 
 $links = array();
 foreach($html->find('h1[class="product-name"]') as $a) {
@@ -106,7 +109,7 @@ $length = count($var1);
 for ($i = 0; $i < $length; $i++) {
 
 $temp = 'img[title="' . $var1[$i] .'"]' ;
- foreach($html->find($temp) as $a) {
+foreach($html->find($temp) as $a) {
 echo  " { $var1[$i] : " .  $a->bigpic . "}<br>";
 } 
 }
